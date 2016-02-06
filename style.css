@@ -145,6 +145,10 @@ h3 {
     border: 1px solid #ff9000;
 }
 
+#blog-post article .comments_area {
+    padding: 30px;
+}
+
 #blog-post article .comments_area #respond h3,  #blog-post article .comments_area h3{
     color: #353535;
     font-size: 16px;
@@ -171,12 +175,15 @@ h3 {
     position: relative;
 }
 
+#blog-post article .comments_area #respond #commentform label#subscribe-label, #blog-post article .comments_area #respond #commentform label#subscribe-blog-label,{
+    top: 0;
+    position: relative;
+}
+
 #blog-post article .comments_area #respond #commentform p{
     margin-top: 50px;
     margin-bottom: -40px;
 }
-
-
 
 #blog-post article .comments_area #respond #commentform textarea, #blog-post article .comments_area #respond #commentform input[type=text]{
     background: #f9f9f9;
