@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5431472">
-              <caret line="177" column="161" selection-start-line="177" selection-start-column="161" selection-end-line="177" selection-end-column="161" />
+              <caret line="177" column="130" selection-start-line="177" selection-start-column="130" selection-end-line="177" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -186,7 +186,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="749" extended-state="6" />
+    <frame x="-1" y="-1" width="1368" height="749" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -292,7 +292,7 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5431472">
-          <caret line="177" column="161" selection-start-line="177" selection-start-column="161" selection-end-line="177" selection-end-column="161" />
+          <caret line="177" column="130" selection-start-line="177" selection-start-column="130" selection-end-line="177" selection-end-column="130" />
           <folding />
         </state>
       </provider>

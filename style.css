@@ -175,7 +175,7 @@ h3 {
     position: relative;
 }
 
-#blog-post article .comments_area #respond #commentform label#subscribe-label, #blog-post article .comments_area #respond #commentform label#subscribe-blog-label,{
+#blog-post article .comments_area #respond #commentform #subscribe-label, #blog-post article .comments_area #respond #commentform #subscribe-blog-label,{
     top: 0;
     position: relative;
 }
