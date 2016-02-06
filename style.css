@@ -1,0 +1,202 @@
+/*
+Theme Name: Blog Aitecsa
+Theme URI: http://elnahual.com.mx
+Author: El Nahual
+Author URI: http://elnahual.com.mx
+Description: Tema desarrollado para el blog de Aitecsa
+Version: 1.0
+*/
+
+#blog-post .widget {
+    margin-bottom: 50px;
+}
+
+#blog-post .widget h3 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#blog-post .widget h3:before {
+    content: ' ';
+    width: 50px;
+    height: 1px;
+    background: #DC7437;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#blog-post .widget ul {
+    padding-left: 0;
+}
+
+#blog-post .widget ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 37px;
+    color: #999;
+    font-weight: 300;
+    transition: all .3s ease;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+#blog-post .widget ul li a:before {
+    content: ">";
+    margin-right: 15px;
+}
+
+#blog-post .widget #recentcomments li a:before {
+    content: "";
+    margin-right: 0;
+}
+
+#blog-post .widget ul li:hover a {
+    color: #DC7437;
+}
+
+h3 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#blog-post .widget form.searchform input[type=text] {
+    border: solid 1px #B3B3B3;
+    outline: 0;
+    height: 45px;
+    padding-left: 10px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+#blog-post .widget form.searchform #searchsubmit {
+    border: none;
+    outline: 0;
+    height: 45px;
+    background: 0 0;
+    line-height: 45px;
+    position: absolute;
+    right: 0;
+    padding: 0 10px;
+}
+
+#blog-post .widget form.searchform {
+    top: 50px;
+    position: relative;
+}
+
+
+#blog-post .widget form.searchform label {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 20px;
+    position: relative;
+    top: -72px;
+}
+
+#blog-post .widget form.searchform label:before {
+    content: ' ';
+    width: 50px;
+    height: 1px;
+    background: #DC7437;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#blog-post .widget .tagcloud a {
+    font-size: 13px;
+    line-height: 45px;
+    color: #787878;
+    background: #FBFBFB;
+    border: 1px solid #E2E2E2;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 0 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .3s ease;
+    margin-bottom: 10px;
+}
+
+#blog-post .widget .tagcloud a:hover {
+    color: #fff;
+    background: #ff9000;
+    border: 1px solid #ff9000;
+}
+
+#blog-post article .comments_area #respond h3,  #blog-post article .comments_area h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+#blog-post article .comments_area #respond #commentform input[type=submit] {
+    background: #ff9000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 0 40px;
+    padding: 8px 32px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+}
+
+#blog-post article .comments_area #respond #commentform label{
+    top: -61px;
+    position: relative;
+}
+
+#blog-post article .comments_area #respond #commentform p{
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+
+
+
+#blog-post article .comments_area #respond #commentform textarea, #blog-post article .comments_area #respond #commentform input[type=text]{
+    background: #f9f9f9;
+    height: 30px;
+    width: 100%;
+    border: solid 1px #B5B5B5;
+}
+
+#blog-post article .comments_area #respond #commentform textarea{
+    height: 186px;
+    resize: none;
+    padding: 20px;
+}
+
+#blog-post article .comments_area ol{
+    list-style: none;
+    padding-left: 0;
+}
+
+#blog-post article .comments_area li.comment {
+    border-bottom: 1px solid #ebebeb;
+    display: inline-block;
+}
