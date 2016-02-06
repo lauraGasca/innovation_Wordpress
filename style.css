@@ -146,7 +146,7 @@ h3 {
 }
 
 #blog-post article .comments_area {
-    padding: 30px;
+    padding: 30px 30px 80px 30px;
 }
 
 #blog-post article .comments_area #respond h3,  #blog-post article .comments_area h3{
